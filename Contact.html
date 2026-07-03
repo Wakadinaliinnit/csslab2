@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Us - FastRide</title>
+    <link rel="stylesheet" href="carsite.css" />
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="nav-brand">Fast<span>Ride</span></a>
+            <ul class="nav-menu">
+                <li><a href="index.html" class="nav-link">Home</a></li>
+                <li><a href="cars.html" class="nav-link">Cars</a></li>
+                <li><a href="gallery.html" class="nav-link">Gallery</a></li>
+                <li><a href="contact.html" class="nav-link active">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Contact Content -->
+    <main class="container">
+        <section class="section">
+            <h2 class="section-title">Get In Touch</h2>
+            
+            <div class="info-grid">
+                <div class="info-card">
+                    <h3>📍 Location</h3>
+                    <p>123 Auto Drive</p>
+                    <p>Car City, Nairobi</p>
+                </div>
+                <div class="info-card">
+                    <h3>📞 Phone</h3>
+                    <p>0733 238 797</p>
+                    <p>📧 info@fastrideauto.com</p>
+                </div>
+                <div class="info-card">
+                    <h3>🕐 Open Hours</h3>
+                    <p>Mon-Fri: 8AM - 6PM</p>
+                    <p>Sat: 9AM - 4PM</p>
+                    <p>Sun: Closed</p>
+                </div>
+            </div>
+
+            <!-- Styled Form -->
+            <form class="styled-form">
+                <h3 class="form-title">Send Us a Message</h3>
+                
+                <div class="form-group">
+                    <label for="name">Full Name</label>
+                    <input type="text" id="name" name="name" placeholder="Your full name" required />
+                </div>
+                
+                <div class="form-group">
+                    <label for="email">Email Address</label>
+                    <input type="email" id="email" name="email" placeholder="your@email.com" required />
+                </div>
+                
+                <div class="form-group">
+                    <label for="interest">Interested Car</label>
+                    <select id="interest" name="interest">
+                        <option value="">Select a vehicle</option>
+                        <option value="lc300">LC-300 Land Cruiser</option>
+                        <option value="mustang">Ford Mustang</option>
+                        <option value="mercedes">Mercedes</option>
+                        <option value="succeed">Toyota Succeed</option>
+                        <option value="other">Other / Not sure</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" rows="4" placeholder="Tell us what you're looking for..."></textarea>
+                </div>
+                
+                <button type="submit" class="btn btn-primary btn-block">Send Message ✉️</button>
+            </form>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <p class="brand">FastRide Auto Sales</p>
+            <p>&copy; 2026 FastRide Auto Sales. All rights reserved.</p>
+            <p> 123 Auto Drive, Car City, Nairobi</p>
+        </div>
+    </footer>
+</body>
+</html>
